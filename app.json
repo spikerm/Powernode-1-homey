@@ -49,7 +49,7 @@
 				"1": {
 					"class": "socket",
 					"capabilities": ["onoff", "meter_power"],
-					"icon": "/drivers/powernode-1/assets/icon-1.svg",
+					"icon": "/drivers/powernode-1/assets/icon.svg",
 					"name": {
 						"en": "Greenwave PowerNode 1"
 					}

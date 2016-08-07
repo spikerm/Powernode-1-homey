@@ -3,7 +3,7 @@
 const path			= require('path');
 const ZwaveDriver	= require('homey-zwavedriver');
 
-// http://www.pepper1.net/zwavedb/device/280
+// http://www.pepper1.net/zwavedb/device/281
 
 module.exports = new ZwaveDriver( path.basename(__dirname), {
 	//debug: true,
@@ -37,7 +37,7 @@ module.exports = new ZwaveDriver( path.basename(__dirname), {
 			},
 			'command_report'			: 'METER_REPORT',
 			'command_report_parser'		: function( report ) {
-				return report['Meter Value (Parsed)'];
+				return report['Meter Value (parsed)'];
 				
 			},
 			'pollInterval': "poll_interval"
